@@ -47,27 +47,33 @@ nav a:hover {
     background-color: #60584e;
 }
 
-#hero-img {
-    width: 100%;
-}
-
 #hero {
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin-top: -100px;
 }
 
-#hero-box {
+/*#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}*/
+
+#hero-img {
+    width: 100%;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
 #hero-msg {
-    grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    grid-column: 2/3;
+    margin-top: 200px;
+}
+
+#hero-msg h4 {
+    color: white;
 }
 
 h2 {
@@ -82,10 +88,6 @@ h2 {
     border-radius: 5px;
 }
 
-.button-box:hover {
-    background-color: #d5ce92;
-}
-
 #background {
     background-color: white;
     height: 725px;
@@ -95,6 +97,7 @@ h2 {
     font-family: Grandstander, Tahoma, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    color:#d5ce92;
 }
 
 .msg {
@@ -106,7 +109,7 @@ h2 {
 
 .msg h2 {
     font-family: Grandstander, Tahoma, sans-serif;
-    color:#d5ce92
+    color:#d5ce92;
 }
 
 .msg p {
@@ -141,14 +144,12 @@ main {
 }
 
 main section img {
-    box-sizing: border-box;box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 section {
     text-align: center;
 }
-
-
 
 footer {
     padding: 25px 50px;
