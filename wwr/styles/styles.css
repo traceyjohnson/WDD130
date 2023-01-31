@@ -179,15 +179,14 @@ nav a:hover {
     padding-top: 10px;
 }
 
-main {
+main section {
     text-align: center;
 }
 
 main section img {
     box-sizing: border-box;
-}
-
-section {
+ }
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
