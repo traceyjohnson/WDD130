@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Condensed:wght@300;700&family=Roboto:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #214491;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #316db0;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #525252;
+    font-weight:600;
+}
+
+h4, h5, h6 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #525252;
+    font-weight: light;
+}
+
+a {
+    color: #316db0;
+}
+
+a:hover {
+    color:#561E4C;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    background-color: #ffffff;
+    color:#316db0;
+}
+
+.text-brand-blue {
+    color:#316db0;
+}
+
+.text-dark-blue {
+    color:#214491;
+}
+
+.text-dark-gray {
+    color: #525252;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-accent-dark-purple {
+    color: #561E4C;
+}
+
+.text-accent-purple {
+    color: #942F6E;
+}
+
+.text-accent-dark-red {
+    color: #9C2427;
+}
+
+.text-accent-red {
+    color: #CE3A34;
+}
+
+.text-accent-dark-green {
+    color: #78974D;
+}
+
+.text-accent-green {
+    color: #8CBA54;
+}
+
+.bg-brand-blue {
+    background-color:#316db0
+}
+
+.bg-dark-blue {
+    background-color:#214491;
+}
+
+.bg-light-blue {
+    background-color: #A0D4ED;
+}
+
+.bg-dark-gray {
+    background-color: #525252;
+}
+
+.bg-gray {
+    background-color: #D2D2D2;
+}
+
+.bg-light-gray {
+    background-color: #EBEBEB;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-accent-dark-purple {
+    background-color: #561E4C;
+}
+
+.bg-accent-purple {
+    background-color: #942F6E;
+}
+
+.bg-accent-light-purple {
+    background-color: #BB7DA7;
+}
+
+
+.bg-accent-dark-red {
+    background-color: #9C2427;
+}
+
+.bg-accent-red {
+    background-color: #CE3A34;
+}
+
+.bg-accent-light-red {
+    background-color: #DA8181;
+}
+
+.bg-accent-dark-green {
+    background-color: #78974D;
+}
+
+.bg-accent-green {
+    background-color: #8CBA54;
+}
+
+.bg-accent-light-green {
+    background-color: #D0E2B3;
+}
+
+.xl {
+    font-size: 1.5em;
+}
+
+.text-gothic {
+    font-family: "Dela Gothic One",  "Arial Black", sans-serif;
+}
